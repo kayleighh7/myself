@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f5c7f7;
+    color:#27296d;
+}
+
+nav {
+  background-color: #5e63b6; /* Updated background color */
+  border-radius: 20px;
+  width: 100%; /* Make the navbar stretch across the page */
+  padding: 10px 0; /* Padding for spacing */
+  text-align: center; /* Center the links */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list bullets */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: center; /* Center the items horizontally */
+}
+
+nav ul li {
+  margin: 0 15px; /* Space between the menu items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #a393eb; /* Text color */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  padding: 10px 15px; /* Padding around the link */
+  display: inline-block; /* Makes padding work properly */
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+  background-color: #a393eb; /* Lighter dark color on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+h1{
+    text-align: center;
+    color: #a393eb;
+    size: 200%;
+}
+
+h2{
+    color: #a393eb;
+    size:150%;
+}
+
+
+img{
+    float: right;
+    margin: 20px;
+}
+
+main{
+    margin-top: 15px;
+    background-color: #5e63b6;
+    border-radius: 20px;
+    width: 80%;
+    padding:1.5em;
+}
+
+footer{
+    color: snow;
+}
+
+blockquote{
+    color: #a393eb;
+    font-style: italic;
+    font-weight: 1000;
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+}
